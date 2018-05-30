@@ -1,6 +1,6 @@
 sql
 
-select*fromuser
+select * from user
 
 insertintouser（name,age）values('zhang',20)
 
