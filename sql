@@ -15,3 +15,5 @@ alter table user rename to user1
 drop table user
 
 select * from user id in (1,2,3)
+
+delete from user where id = 1
