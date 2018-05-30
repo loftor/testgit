@@ -29,3 +29,10 @@ create table user (
 insert into user (name,age) values ("zhang",20)
 
 insert into user (name,age) values ("xu",18)
+
+
+begin transaction
+
+delete from user where age=25
+
+end transaction
