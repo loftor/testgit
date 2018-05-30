@@ -20,7 +20,11 @@ delete from user where id = 1
 
 select * from user id between (1,5)
 
-create table user
+create table user (
+	id integer primary key,
+	name text,
+	age integer
+)
 
 insert into user (name,age) values ("zhang",20)
 
