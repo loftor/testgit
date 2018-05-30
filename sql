@@ -6,7 +6,7 @@ insert into user（name,age）values ('zhang',20)
 
 delete from user
 
-updateusersetname='zhang',age=20whereid=1
+update user set name='zhang',age=20 where id=1
 
 altertableuseraddgendarint
 
