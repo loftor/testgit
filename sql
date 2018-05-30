@@ -12,4 +12,4 @@ alter table user add gendar int
 
 alter table user rename to user1
 
-droptableuser
+drop table user
