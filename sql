@@ -10,6 +10,6 @@ update user set name='zhang',age=20 where id=1
 
 alter table user add gendar int
 
-altertableuserrenametouser1
+alter table user rename to user1
 
 droptableuser
