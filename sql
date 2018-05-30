@@ -13,3 +13,5 @@ alter table user add gendar int
 alter table user rename to user1
 
 drop table user
+
+select * from user id in (1,2,3)
