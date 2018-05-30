@@ -2,7 +2,7 @@ sql
 
 select * from user
 
-insertintouser（name,age）values('zhang',20)
+insert into user（name,age）values ('zhang',20)
 
 delete from user
 
