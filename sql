@@ -30,6 +30,7 @@ insert into user (name,age) values ("zhang",20)
 
 insert into user (name,age) values ("xu",18)
 
+insert into user (name,age) values ("dong",,25)
 
 begin transaction
 
