@@ -17,3 +17,5 @@ drop table user
 select * from user id in (1,2,3)
 
 delete from user where id = 1
+
+select * from user id between (1,5)
