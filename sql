@@ -8,7 +8,7 @@ delete from user
 
 update user set name='zhang',age=20 where id=1
 
-altertableuseraddgendarint
+alter table user add gendar int
 
 altertableuserrenametouser1
 
