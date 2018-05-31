@@ -39,3 +39,5 @@ delete from user where age=25
 end transaction
 
 create index user_id_uindex on user(id)
+
+foreign key (name) references user(id)
