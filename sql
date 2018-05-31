@@ -40,4 +40,8 @@ end transaction
 
 create index user_id_uindex on user(id)
 
+<<<<<<< HEAD
 foreign key (name) references user(id)
+=======
+insert into user (name,age) values ("dong",,25)
+>>>>>>> f fix
