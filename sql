@@ -46,3 +46,5 @@ foreign key (name) references user(id)
 insert into user (name,age) values ("dong",,25)
 
 insert into user (name,age) values ("xu",18)
+
+create trigger user_log After insert on user;
