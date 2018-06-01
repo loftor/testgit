@@ -23,7 +23,8 @@ select * from user id between (1,5)
 create table user (
 	id integer primary key,
 	name text,
-	age integer
+	age integer,
+	create integer,
 )
 
 insert into user (name,age) values ("zhang",20)
@@ -47,4 +48,7 @@ insert into user (name,age) values ("dong",,25)
 
 insert into user (name,age) values ("xu",18)
 
-create trigger user_log After insert on user;
+create trigger user_log After insert on user
+begin
+insert into user (name,age) values (new.name, new.age, datetime('now'));
+end;
